@@ -1,0 +1,22 @@
+{
+  "name": "sails-angular",
+  "version": "0.0.0",
+  "homepage": "https://github.com/raphasilvac/sails-angular",
+  "authors": [
+    "Raphael <raphasilvac@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.18",
+    "angular-route": "~1.2.18",
+    "bootstrap": "~3.2.0"
+  }
+}

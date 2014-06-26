@@ -2,13 +2,22 @@
     "name": "sails-angular",
     "private": true,
     "version": "0.0.0",
-    "description": "a Sails application",
+    "description": "Sails application with angularjs",
     "dependencies": {
         "sails": "0.9.16",
-        "grunt": "0.4.1",
         "sails-disk": "~0.9.0",
         "ejs": "0.8.4",
         "optimist": "0.3.4"
+    },
+    "devDependencies": {
+        "gulp-util": "~2.2.12",
+        "gulp": "~3.8.2",
+        "gulp-uglify": "~0.1.0",
+        "gulp-watch": "~0.5.0",
+        "gulp-concat": "~2.1.7",
+        "gulp-less": "~0.3.4-1",
+        "gulp-notify": "~0.3.4-1",
+        "gulp-minify-css": "~0.3.0"
     },
     "scripts": {
         "start": "node app.js",
